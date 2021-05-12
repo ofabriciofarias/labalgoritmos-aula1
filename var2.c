@@ -2,12 +2,12 @@
 
 int main(){
 
-    int a;
+    //DECLARE a LITERAL
+    char a;
 
-    a = -2147483649;
+    //a <- "b"
+    a = 'c';
 
-    printf("a = %d", a);
-
-return 0;
-
+    //ESCREVA "O valor armazenado = ", a
+    printf("O valor armazenado = %c\n", a);
 }
